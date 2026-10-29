@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Raabiul Akbar, Lc., MA., Gr., MCE | Portofolio Teacher of Champions 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Amiri:wght@700&display=swap">
+<style>
+:root{
+  --c:#c5d92d;--g2:#e2ee5c;--d:#0b3f6b;--t:#0f2f45;--t2:#4f6272;--bg:#f4fafa;--gl:rgba(230,245,242,.62);--gle:rgba(255,255,255,.8);--glh:rgba(255,255,255,.95);--gls:rgba(11,63,107,.16);--spec:rgba(255,255,255,.6);--ft:#082f52;--page:#f4fafa;--ink2:#0b3f6b;--fe:rgba(11,63,107,.22);
+  --spring:cubic-bezier(.34,1.45,.5,1);--hh:4rem;
+  box-sizing:border-box;padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--t:#f2f7fa;--t2:#b4cfd9;--bg:#0a3f66;--gl:rgba(6,40,70,.55);--gle:rgba(255,255,255,.2);--glh:rgba(255,255,255,.3);--gls:rgba(0,0,0,.35);--spec:rgba(255,255,255,.16);--page:linear-gradient(160deg,#0a3d66 0%,#0e6286 50%,#1a8a72 100%);--ink2:#e2ee5c;--fe:rgba(255,255,255,.22)}}
+:root[data-theme="dark"]{color-scheme:dark;--t:#f2f7fa;--t2:#b4cfd9;--bg:#0a3f66;--gl:rgba(6,40,70,.55);--gle:rgba(255,255,255,.2);--glh:rgba(255,255,255,.3);--gls:rgba(0,0,0,.35);--spec:rgba(255,255,255,.16);--page:linear-gradient(160deg,#0a3d66 0%,#0e6286 50%,#1a8a72 100%);--ink2:#e2ee5c;--fe:rgba(255,255,255,.22)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--hh) + env(safe-area-inset-top,0px))}
+body{font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--page);background-attachment:fixed;background-color:var(--bg);color:var(--t);line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}ul{list-style:none}
+:focus-visible{outline:2px solid var(--c);outline-offset:3px}
+.container{width:min(1120px,100% - 2rem);margin-inline:auto}
+.i{width:1.25em;height:1.25em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+h1,h2,h3,.brand span{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;line-height:1.1}
+
+/* header */
+.header{position:fixed;inset:0 0 auto;z-index:100;padding-top:env(safe-area-inset-top,0px)}
+.header::before{content:"";position:absolute;inset:0;z-index:-1;transition:background .3s}
+.header.scrolled::before{background:rgba(8,47,82,.6);-webkit-backdrop-filter:blur(18px) saturate(180%);backdrop-filter:blur(18px) saturate(180%);border-bottom:1px solid rgba(255,255,255,.15)}
+.nav{height:var(--hh);display:flex;align-items:center;justify-content:space-between;color:#fff;position:relative}
+.brand{display:flex;align-items:center;gap:.6rem}
+.brand b{display:grid;place-items:center;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--c);color:#1d2a00;font:700 1.1rem "Amiri",serif}
+.brand span{font-size:1.25rem;letter-spacing:.04em}
+.nav__right{display:flex;gap:.6rem;align-items:center}
+.ibtn{display:grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.14);color:#fff;cursor:pointer;transition:transform .4s var(--spring)}
+.ibtn:hover{transform:scale(1.1)}
+.menu{position:fixed;top:0;right:-100%;width:72%;max-width:20rem;height:100dvh;padding:5rem 1.4rem 2rem;background:linear-gradient(160deg,rgba(8,47,82,.92),rgba(14,98,134,.8));-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);border-radius:28px 0 0 28px;box-shadow:-14px 0 40px rgba(0,0,0,.35);transition:right .6s cubic-bezier(.22,1,.36,1);z-index:101}
+.menu.show{right:0}
+.menu ul{display:grid;gap:.5rem}
+.menu a{display:block;padding:.65rem 1rem;border-radius:999px;font-size:.92rem;font-weight:500;opacity:.85;transition:background .3s}
+.menu a:hover,.menu a.on{opacity:1;background:linear-gradient(180deg,rgba(255,255,255,.3),rgba(255,255,255,.1));box-shadow:inset 0 1px 0 rgba(255,255,255,.5)}
+.menu .x{position:absolute;top:1rem;right:1rem}
+.only-d{display:none}
+@media (min-width:1100px){
+ .only-m{display:none}.only-d{display:grid}
+ .menu{position:absolute;top:50%;left:50%;right:auto;translate:-50% -50%;width:max-content;max-width:none;height:auto;padding:.28rem;border-radius:999px;background:linear-gradient(135deg,rgba(255,255,255,.24),rgba(255,255,255,.07)),rgba(8,47,82,.35);border:1px solid rgba(255,255,255,.28);box-shadow:inset 0 1px 0 rgba(255,255,255,.55),0 10px 28px rgba(0,0,0,.28);transition:none}
+ .menu ul{display:flex;gap:.1rem}
+ .menu a{font-size:.8rem;padding:.5rem .85rem;white-space:nowrap}
+ .menu .x{display:none}
+}
+
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden;color:#fff;background:linear-gradient(160deg,#082f52 0%,#0e5f82 55%,#1a8a72 100%)}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(60% 50% at 80% 20%,rgba(197,217,45,.22),transparent 70%)}
+.hero .container{position:relative;z-index:1;display:grid;gap:2.5rem;align-items:center;padding:calc(7rem + env(safe-area-inset-top,0px)) 0 4rem}
+.badge{display:inline-block;border:1.5px solid var(--c);color:var(--g2);font-weight:600;font-size:.82rem;padding:.3rem 1rem;border-radius:999px;margin-bottom:1.2rem;background:rgba(255,255,255,.08)}
+.hero h1{font-size:clamp(2.9rem,8vw,5rem);line-height:1.02;margin-bottom:1rem}
+.hero p.lead{max-width:30rem;opacity:.92;margin-bottom:2rem}
+.btns{display:flex;flex-wrap:wrap;gap:.8rem}
+.button{display:inline-flex;align-items:center;gap:.5rem;padding:.9rem 1.5rem;border-radius:999px;border:1px solid transparent;font:600 .9rem "Plus Jakarta Sans",sans-serif;cursor:pointer;transition:transform .5s var(--spring)}
+.button:hover{transform:translateY(-3px) scale(1.03)}.button:active{transform:scale(.95)}
+.button.gold{background:var(--c);color:#1d1600;box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 6px 16px rgba(0,0,0,.25)}
+.button.glass{background:rgba(255,255,255,.22);border-color:rgba(255,255,255,.5);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.5);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.hcard{position:relative;border-radius:2rem;padding:2.4rem 1.8rem 2rem;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);-webkit-backdrop-filter:blur(18px) saturate(170%);backdrop-filter:blur(18px) saturate(170%);box-shadow:inset 0 1px 0 rgba(255,255,255,.6),0 20px 50px rgba(0,0,0,.25);text-align:center;overflow:hidden}
+.hcard .ar{font:700 clamp(6rem,18vw,9rem)/1 "Amiri",serif;color:var(--g2);direction:rtl;margin:.6rem 0}
+.hcard h2{font-size:1.7rem}.hcard p{opacity:.88;font-size:.92rem}
+
+/* pita sulapa eppa' */
+.pita{display:block;height:20px;background-color:var(--d);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16'%3E%3Cpolygon points='10,2 18,8 10,14 2,8' fill='none' stroke='%23c5d92d' stroke-width='1'/%3E%3Cpolygon points='10,5.5 13,8 10,10.5 7,8' fill='%23c5d92d'/%3E%3C/svg%3E");background-repeat:repeat-x;background-position:center;background-size:20px 16px;border-top:1.5px solid var(--c);border-bottom:1.5px solid var(--c)}
+.glass .pita{margin:-1.6rem -1.6rem 1.4rem;border-radius:1.6rem 1.6rem 0 0}
+
+/* sections */
+.section{padding:5rem 0 1rem}
+.section__title{text-align:center;font-size:clamp(2.2rem,6vw,3.1rem);margin-bottom:.6rem}
+.intro{text-align:center;color:var(--t2);max-width:36rem;margin:0 auto 2rem}
+.glass{position:relative;border-radius:1.6rem;padding:1.6rem;background-color:var(--gl);-webkit-backdrop-filter:blur(16px) saturate(170%);backdrop-filter:blur(16px) saturate(170%);border:1px solid var(--gle);box-shadow:inset 0 1px 0 var(--glh),0 10px 30px var(--gls);background-image:radial-gradient(170px 130px at var(--mx,-50%) var(--my,-50%),var(--spec),transparent 70%);transition:transform .55s var(--spring)}
+.glass:hover{transform:translateY(-4px)}
+.glass h3{font-size:1.6rem;color:var(--ink2);margin-bottom:.4rem}
+.glass p{color:var(--t2);font-size:.95rem}
+.grid{display:grid;gap:1.5rem}
+.g2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.about{grid-template-columns:1.5fr 1fr;align-items:start;gap:2rem}
+.about .txt p{margin-bottom:1rem;max-width:62ch}
+.facts dt{font-weight:700;font-size:.82rem;color:var(--ink2);margin-top:.8rem}
+.facts dd{font-size:.93rem;color:var(--t2)}
+.ktag{display:inline-block;border:1.5px solid var(--c);border-radius:999px;padding:.15rem .9rem;font-size:.78rem;font-weight:600;margin-bottom:.8rem;color:var(--t)}
+.tags{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.tags li{border:1.5px solid var(--c);border-radius:999px;padding:.15rem .9rem;font-size:.78rem;font-weight:600}
+.lit{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.lit .glass{border-radius:2rem;text-align:center}
+.steps{border-left:2px solid var(--c);margin-left:.4rem}
+.steps li{position:relative;padding:0 0 1.6rem 1.6rem}
+.steps li::before{content:"";position:absolute;left:-7px;top:.6rem;width:12px;height:12px;border-radius:50%;background:var(--c);box-shadow:0 0 0 3px rgba(197,217,45,.3)}
+.steps h3{font-size:1.5rem;color:var(--t)}
+.steps p{color:var(--t2);max-width:60ch;font-size:.95rem}
+.quote{font:600 clamp(1.7rem,4vw,2.6rem)/1.25 "Cormorant Garamond",serif;text-align:center;max-width:26ch;margin:0 auto;color:var(--ink2)}
+
+/* footer */
+.footer{margin-top:5rem;padding:3rem 0 calc(1.5rem + env(safe-area-inset-bottom,0px));background:linear-gradient(160deg,#082f52,#0e5f82);color:#fff;border-top:3px solid var(--c)}
+.footer .container{display:grid;gap:1.5rem}
+.footer h2{font-size:2.2rem;margin-bottom:.4rem}
+.footer p{opacity:.9;max-width:44ch}
+.copy{display:block;margin-top:2rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,.2);font-size:.8rem;opacity:.8}
+
+/* scroll up */
+.up{position:fixed;right:1rem;bottom:-30%;z-index:90;width:2.6rem;height:2.6rem;border-radius:50%;background:rgba(197,217,45,.85);color:#1d1600;display:grid;place-items:center;border:1px solid var(--gle);transition:bottom .55s var(--spring)}
+.up.show{bottom:calc(1rem + env(safe-area-inset-bottom,0px))}
+
+/* reveal */
+.js .rv{opacity:0;filter:blur(6px);transform:translateY(28px) scale(.97);transition:opacity .7s,transform .9s var(--spring),filter .7s}
+.js .rv.in{opacity:1;filter:none;transform:none}
+@media (max-width:760px){.about{grid-template-columns:1fr}}
+@media (min-width:860px){.hero .container{grid-template-columns:1.2fr 1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition-duration:.01ms!important;animation:none!important}.js .rv{opacity:1;filter:none;transform:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></symbol>
+<symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+<symbol id="menu" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol>
+<symbol id="close" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></symbol>
+<symbol id="right" viewBox="0 0 24 24"><path d="M3 12h18M15 6l6 6-6 6"/></symbol>
+<symbol id="top" viewBox="0 0 24 24"><path d="M12 21V3M6 9l6-6 6 6"/></symbol>
+</defs></svg>
+
+<header class="header" id="header">
+<nav class="nav container" aria-label="Navigasi utama">
+<a href="#home" class="brand"><b aria-hidden="true">ق</b><span>Raabiul Akbar, Lc., MA., Gr., MCE</span></a>
+<div class="menu" id="menu">
+<ul>
+<li><a href="#home" class="on">Beranda</a></li><li><a href="#tentang">Tentang</a></li><li><a href="#kompetensi">Kompetensi</a></li><li><a href="#inovasi">Inovasi</a></li><li><a href="#literasi">Literasi</a></li><li><a href="#peran">Peran</a></li><li><a href="#kontak">Kontak</a></li>
+</ul>
+<button class="ibtn x only-m" id="close" aria-label="Tutup menu"><svg class="i"><use href="#close"/></svg></button>
+</div>
+<div class="nav__right">
+<button class="ibtn" id="theme" aria-label="Ganti tema"><svg class="i"><use href="#moon"/></svg></button>
+<button class="ibtn only-m" id="toggle" aria-label="Buka menu"><svg class="i"><use href="#menu"/></svg></button>
+</div>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="container">
+<div>
+<p class="badge">Peserta Teacher of Champions 2026</p>
+<h1>Raabiul Akbar, Lc., MA., Gr., MCE</h1>
+<p class="lead">Guru Al-Qur’an Hadis MAN 3 Kota Makassar. Mengajar dengan teknologi, menulis untuk berbagi, dan membangun budaya apresiasi di madrasah.</p>
+<div class="btns"><a href="#inovasi" class="button gold">Lihat inovasi <svg class="i"><use href="#right"/></svg></a><a href="#kompetensi" class="button glass">Empat kompetensi guru</a></div>
+</div>
+<div class="hcard">
+<span class="pita" style="margin:-2.4rem -1.8rem 1rem" aria-hidden="true"></span>
+<p>Empowering Educators, Inspiring Generations</p>
+<div class="ar" aria-hidden="true">اقرأ</div>
+<h2>Teacher of Champions 2026</h2>
+</div>
+</div>
+</section>
+
+<section class="section" id="tentang"><div class="container rv">
+<h2 class="section__title">Tentang saya</h2>
+<div class="grid about">
+<div class="glass txt"><span class="pita" aria-hidden="true"></span>
+<p>Saya guru Al-Qur’an Hadis di MAN 3 Kota Makassar dengan minat kuat pada inovasi pembelajaran, transformasi digital, dan pengembangan media edukasi berbasis teknologi.</p>
+<p>Saya berupaya menghadirkan pengalaman belajar yang kreatif, interaktif, dan relevan dengan perkembangan zaman melalui aplikasi dan game edukatif.</p>
+<p>Bagi saya, teknologi, pendidikan, dan literasi adalah tiga unsur strategis untuk pembelajaran yang berdampak, pembentukan karakter peserta didik, dan transformasi pendidikan yang berkelanjutan.</p></div>
+<aside class="glass facts"><span class="pita" aria-hidden="true"></span><h3>Sekilas</h3><dl>
+<dt>Mata pelajaran</dt><dd>Al-Qur’an Hadis, kelas 10</dd>
+<dt>Madrasah</dt><dd>MAN 3 Kota Makassar</dd>
+<dt>Jabatan</dt><dd>Ketua Tim Transformasi Digital &amp; Society 5.0; anggota Tim Kesiswaan</dd>
+<dt>Pendekatan</dt><dd>Kurikulum berbasis cinta</dd>
+<dt>Menulis di</dt><dd>Kompasiana sejak Agustus 2024, jurnal ilmiah, buku populer, Kementerian Agama</dd></dl></aside>
+</div></div></section>
+
+<section class="section" id="kompetensi"><div class="container rv">
+<h2 class="section__title">Empat kompetensi guru</h2>
+<p class="intro">Ajang ini menilai empat kompetensi. Berikut bukti praktik dari kelas dan madrasah saya.</p>
+<div class="grid g2">
+<article class="glass"><span class="pita" aria-hidden="true"></span><span class="ktag">Pedagogik</span><h3>Belajar yang hidup</h3><p>Merancang pembelajaran Al-Qur’an Hadis yang interaktif lewat game dan media digital, dengan pendekatan kurikulum berbasis cinta yang menempatkan peserta didik sebagai pusat belajar.</p></article>
+<article class="glass"><span class="pita" aria-hidden="true"></span><span class="ktag">Profesional</span><h3>Terus bertumbuh</h3><p>Menguasai bidang ajar sekaligus terus berkembang: mengembangkan aplikasi, menulis artikel jurnal ilmiah, dan menerbitkan buku populer.</p></article>
+<article class="glass"><span class="pita" aria-hidden="true"></span><span class="ktag">Kepribadian</span><h3>Budaya apresiasi</h3><p>Membangun budaya apresiasi di madrasah. Peserta didik dimotivasi untuk berkompetisi secara positif, bukan sekadar diawasi.</p></article>
+<article class="glass"><span class="pita" aria-hidden="true"></span><span class="ktag">Sosial</span><h3>Berbagi dan berkolaborasi</h3><p>Aktif di Tim Kesiswaan, memimpin Tim Transformasi Digital, menjadi kontributor berita Kementerian Agama, dan berbagi gagasan lewat Kompasiana.</p></article>
+</div></div></section>
+
+<section class="section" id="inovasi"><div class="container rv">
+<h2 class="section__title">Inovasi pembelajaran dan digital</h2>
+<p class="intro">Teknologi dipakai untuk membuat belajar lebih hidup dan membuat prestasi peserta didik terlihat.</p>
+<div class="grid g2">
+<article class="glass"><span class="pita" aria-hidden="true"></span><h3>Aplikasi dokumentasi prestasi dan pelanggaran</h3><p>Aplikasi ini mencatat prestasi dan pelanggaran peserta didik. Fungsinya lebih dari pemantauan: ia membangun budaya apresiasi dan mendorong peserta didik berkompetisi secara positif, baik akademik maupun nonakademik.</p><ul class="tags"><li>Kesiswaan</li><li>Budaya apresiasi</li><li>Karakter</li></ul></article>
+<article class="glass"><span class="pita" aria-hidden="true"></span><h3>Game edukatif</h3><p>Media belajar berbentuk game untuk menghadirkan pengalaman belajar yang kreatif, interaktif, dan sesuai perkembangan zaman.</p><ul class="tags"><li>Interaktif</li><li>Al-Qur’an Hadis</li><li>Media digital</li></ul></article>
+</div></div></section>
+
+<section class="section" id="literasi"><div class="container rv">
+<h2 class="section__title">Literasi dan publikasi</h2>
+<p class="intro">Menulis adalah cara saya merawat gagasan dan membagikannya.</p>
+<div class="grid lit">
+<article class="glass"><h3>Buku populer</h3><p>Menulis buku populer tentang pendidikan dan pembelajaran.</p></article>
+<article class="glass"><h3>Jurnal ilmiah</h3><p>Menulis artikel jurnal ilmiah dari praktik di kelas.</p></article>
+<article class="glass"><h3>Berita Kemenag</h3><p>Kontributor pemberitaan Kementerian Agama.</p></article>
+<article class="glass"><h3>Kompasiana</h3><p>Kompasianer sejak 4 Agustus 2024.</p></article>
+</div></div></section>
+
+<section class="section" id="peran"><div class="container rv">
+<h2 class="section__title">Peran di madrasah</h2>
+<div class="glass" style="margin-top:1.5rem"><span class="pita" aria-hidden="true"></span>
+<ol class="steps">
+<li><h3>Guru Al-Qur’an Hadis, kelas 10</h3><p>Mengajar dan mengembangkan media belajar yang dekat dengan dunia peserta didik.</p></li>
+<li><h3>Ketua Tim Transformasi Digital &amp; Society 5.0</h3><p>Memimpin penerapan teknologi dalam pembelajaran dan layanan madrasah.</p></li>
+<li><h3>Anggota Tim Kesiswaan</h3><p>Mendampingi pembinaan peserta didik, didukung aplikasi dokumentasi yang saya kembangkan.</p></li>
+</ol></div></div></section>
+
+<section class="section"><div class="container rv"><p class="quote">Teknologi, pendidikan, dan literasi: tiga unsur untuk pembelajaran yang berdampak.</p></div></section>
+</main>
+
+<footer class="footer" id="kontak"><div class="container">
+<h2>Mari terhubung</h2>
+<p>Raabiul Akbar, Lc., MA., Gr., MCE <br>Guru Al-Qur’an Hadis, MAN 3 Kota Makassar</p>
+<p>Peserta Teacher of Champions (ToC) 2026: Empowering Educators, Inspiring Generations.</p>
+<span class="copy">© 2026 Raabiul Akbar. Portofolio ini disusun untuk Teacher of Champions 2026.</span>
+</div></footer>
+
+<a href="#home" class="up" id="up" aria-label="Kembali ke atas"><svg class="i"><use href="#top"/></svg></a>
+
+<script>
+(function(){
+var d=document,r=d.documentElement,$=function(s){return d.querySelector(s)},$$=function(s){return [].slice.call(d.querySelectorAll(s))};
+r.classList.add("js");
+var menu=$("#menu"),links=$$(".menu a"),hd=$("#header"),up=$("#up"),th=$("#theme");
+$("#toggle").onclick=function(){menu.classList.add("show")};
+$("#close").onclick=function(){menu.classList.remove("show")};
+links.forEach(function(a){a.addEventListener("click",function(){menu.classList.remove("show")})});
+d.addEventListener("keydown",function(e){if(e.key==="Escape")menu.classList.remove("show")});
+function dark(){var t=r.dataset.theme;return t?t==="dark":matchMedia("(prefers-color-scheme:dark)").matches}
+function icon(){th.innerHTML='<svg class="i"><use href="#'+(dark()?"sun":"moon")+'"/></svg>'}
+var s=null;try{s=localStorage.getItem("theme")}catch(e){}
+if(s)r.dataset.theme=s;icon();
+th.onclick=function(){var t=dark()?"light":"dark";r.dataset.theme=t;icon();try{localStorage.setItem("theme",t)}catch(e){}};
+var secs=$$("main section[id]");
+function sc(){var y=scrollY,cur=secs[0].id;hd.classList.toggle("scrolled",y>40);up.classList.toggle("show",y>350);
+secs.forEach(function(x){if(y+160>=x.offsetTop)cur=x.id});
+if(innerHeight+y>=d.body.scrollHeight-4)cur="kontak";
+links.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+cur)})}
+addEventListener("scroll",sc,{passive:true});sc();
+var rv=$$(".rv");
+if("IntersectionObserver"in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{rootMargin:"0px 0px -8% 0px"});rv.forEach(function(e){io.observe(e)})}else rv.forEach(function(e){e.classList.add("in")});
+d.addEventListener("pointermove",function(e){var t=e.target.closest&&e.target.closest(".glass");if(!t)return;var b=t.getBoundingClientRect();t.style.setProperty("--mx",e.clientX-b.left+"px");t.style.setProperty("--my",e.clientY-b.top+"px")},{passive:true});
+})();
+</script>
+</body>
+</html>
